@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Robot Nightlight
+Comment=Start the fullscreen animated robot room
+Exec=/usr/bin/python3 /home/pi/RobotNightlight/robot_nightlight.py
+Path=/home/pi/RobotNightlight
+Terminal=false
+X-GNOME-Autostart-enabled=true

@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+halloween-preview.flag
+
+# Design experiments and previews, not needed by the running nightlight.
+/*preview*.png
+/cyd-screen-exact-320x240.png
+/assets/*concept*.png
+/assets/room-halloween-source.png
