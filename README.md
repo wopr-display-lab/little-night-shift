@@ -1,6 +1,23 @@
-# Robot Window Nightlight
+# Little Night Shift
 
-A quiet 800×480 animated room intended for a seven-inch HDMI display and an
+Two quiet, standalone displays for the Raspberry Pi Zero W and an 800×480 screen:
+
+- **[Robot Window Nightlight](#robot-window-nightlight)** — the original rainy robot room, with its rover pet and seasonal Halloween decorations.
+- **[Moonwake Manor](moonwake-manor/README.md)** — a separate haunted mansion with window apparitions, bats, dense fog, an opening door, moving shadows, and automatic startup showtime. Works entirely offline.
+
+## Moonwake Manor — new haunted-mansion scene
+
+![Moonwake Manor on the Raspberry Pi](screenshots/moonwake-manor.png)
+
+**[Mansion source, artwork and setup instructions](moonwake-manor/README.md)**
+
+The latest scene keeps the moonlit exterior visible during hauntings; only the room and porch lamps dim. A one-time performance starts about 15 seconds after the mansion appears, then normal slow events resume. The robot program and its artwork remain available unchanged.
+
+---
+
+## Robot Window Nightlight
+
+A quiet 800×480 animated room intended for a 7-inch (17.8 cm) HDMI display and an
 original Raspberry Pi Zero W.
 
 The robot follows a slow four-stop routine around the room, with longer pauses
@@ -38,3 +55,4 @@ python3 robot_nightlight.py
 
 The program is capped at 12 FPS and uses only pre-scaled 800×480 artwork plus
 lightweight drawing effects, making it suitable for the original Pi Zero W.
+
